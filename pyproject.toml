@@ -1,0 +1,19 @@
+[project]
+name = "geneticalgorithmpython"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Pedro Geadas",email = "pedro.geadas@seqera.io"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "wxpython (>=4.2.3,<5.0.0)",
+    "matplotlib (>=3.10.1,<4.0.0)",
+    "numpy (>=2.2.4,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
